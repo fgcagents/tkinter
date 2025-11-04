@@ -1,0 +1,19 @@
+# Dependències del projecte
+# Instal·lar amb: pip install -r requirements.txt
+
+# GUI
+tkcalendar>=1.6.1
+
+# Base de dades (inclòs amb Python)
+# sqlite3
+
+# Els teus mòduls existents (assumim que estan al directori core/)
+# No cal instal·lar-los, però assegura't que estan al directori correcte:
+# - core/genetic_algorithm.py
+# - core/data_loader.py
+# - core/data_structures.py
+# - core/constraints.py
+
+# Opcionals per funcionalitats extra
+# matplotlib>=3.5.0  # Si vols afegir gràfics avançats
+# pandas>=1.4.0      # Si vols processament de dades avançat

@@ -1,0 +1,601 @@
+2025-11-04 19:40:27,662 - __main__ - INFO - ============================================================
+2025-11-04 19:40:27,662 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 19:40:27,663 - __main__ - INFO - ============================================================
+2025-11-04 19:40:27,746 - __main__ - ERROR - Error fatal en l'aplicació: invalid syntax (disponibilitat_controller.py, line 301)
+Traceback (most recent call last):
+  File "c:\Users\josep\Documents\GitHub\tkinter\app.py", line 53, in main
+    from gui.main_window import MainWindow
+  File "c:\Users\josep\Documents\GitHub\tkinter\gui\__init__.py", line 4, in <module>
+    from .main_window import MainWindow
+  File "c:\Users\josep\Documents\GitHub\tkinter\gui\main_window.py", line 8, in <module>
+    from controllers.descansos_controller import DescansosController
+  File "c:\Users\josep\Documents\GitHub\tkinter\controllers\__init__.py", line 6, in <module>
+    from .disponibilitat_controller import DisponiubitatController
+  File "c:\Users\josep\Documents\GitHub\tkinter\controllers\disponibilitat_controller.py", line 301
+    for serv
+            ^
+SyntaxError: invalid syntax
+2025-11-04 19:47:15,335 - __main__ - INFO - ============================================================
+2025-11-04 19:47:15,335 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 19:47:15,335 - __main__ - INFO - ============================================================
+2025-11-04 19:47:15,418 - __main__ - ERROR - Error fatal en l'aplicació: cannot import name 'DisponiubitatController' from 'controllers.disponibilitat_controller' (c:\Users\josep\Documents\GitHub\tkinter\controllers\disponibilitat_controller.py)
+Traceback (most recent call last):
+  File "c:\Users\josep\Documents\GitHub\tkinter\app.py", line 53, in main
+    from gui.main_window import MainWindow
+  File "c:\Users\josep\Documents\GitHub\tkinter\gui\__init__.py", line 4, in <module>
+    from .main_window import MainWindow
+  File "c:\Users\josep\Documents\GitHub\tkinter\gui\main_window.py", line 9, in <module>
+    from controllers.disponibilitat_controller import DisponiubitatController
+ImportError: cannot import name 'DisponiubitatController' from 'controllers.disponibilitat_controller' (c:\Users\josep\Documents\GitHub\tkinter\controllers\disponibilitat_controller.py). Did you mean: 'DisponibilitatController'?
+2025-11-04 19:50:46,767 - __main__ - INFO - ============================================================
+2025-11-04 19:50:46,767 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 19:50:46,767 - __main__ - INFO - ============================================================
+2025-11-04 19:50:48,950 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 19:50:48,950 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 19:50:48,950 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 19:50:48,951 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 19:50:48,951 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 19:50:49,776 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 19:50:50,084 - gui.views.disponibilitat_view - INFO - DisponiubitatView inicialitzada
+2025-11-04 19:50:50,360 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 19:50:50,361 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 19:50:50,361 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 19:50:50,370 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 19:50:50,370 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 19:50:50,403 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 19:51:12,005 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 19:51:12,027 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 19:51:12,028 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 19:51:12,028 - __main__ - INFO - Finestra principal creada
+2025-11-04 19:51:12,028 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 19:52:45,165 - controllers.descansos_controller - INFO - Cerca '63': 30 resultats
+2025-11-04 19:52:45,406 - controllers.descansos_controller - INFO - Cerca '639': 12 resultats
+2025-11-04 19:52:45,622 - controllers.descansos_controller - INFO - Cerca '6395': 5 resultats
+2025-11-04 19:52:45,838 - controllers.descansos_controller - INFO - Cerca '63950': 1 resultats
+2025-11-04 19:53:15,756 - controllers.descansos_controller - INFO - Descansos de 63950 (2025): 18
+2025-11-04 19:53:45,098 - controllers.descansos_controller - INFO - Cerca '63950': 1 resultats
+2025-11-04 19:54:21,831 - models.database - INFO - Descans afegit: 63950 - 2025-11-08
+2025-11-04 19:54:23,981 - controllers.descansos_controller - INFO - Descansos de 63950 (2025): 19
+2025-11-04 19:55:16,647 - controllers.disponibilitat_controller - INFO - Analitzant disponibilitat: 2025-11-01 - 2025-11-30
+2025-11-04 19:55:16,655 - controllers.disponibilitat_controller - INFO - Carregats 88 treballadors amb descansos
+2025-11-04 19:55:16,656 - controllers.disponibilitat_controller - INFO - Carregats 10 serveis
+2025-11-04 19:55:16,682 - controllers.disponibilitat_controller - INFO - Anàlisi completada: 98.00% cobertura
+2025-11-04 19:56:51,890 - controllers.disponibilitat_controller - INFO - Analitzant disponibilitat: 2025-11-01 - 2025-11-30
+2025-11-04 19:56:51,899 - controllers.disponibilitat_controller - INFO - Carregats 88 treballadors amb descansos
+2025-11-04 19:56:51,899 - controllers.disponibilitat_controller - INFO - Carregats 10 serveis
+2025-11-04 19:56:51,928 - controllers.disponibilitat_controller - INFO - Anàlisi completada: 98.00% cobertura
+2025-11-04 20:07:44,492 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 20:07:44,492 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 20:08:02,550 - __main__ - INFO - ============================================================
+2025-11-04 20:08:02,550 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 20:08:02,550 - __main__ - INFO - ============================================================
+2025-11-04 20:08:02,757 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 20:08:02,757 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 20:08:02,758 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 20:08:02,758 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 20:08:02,758 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 20:08:03,477 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 20:08:03,775 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 20:08:04,039 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 20:08:04,039 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 20:08:04,040 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 20:08:04,050 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 20:08:04,051 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 20:08:04,084 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 20:08:06,441 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 20:08:06,459 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 20:08:06,460 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 20:08:06,460 - __main__ - INFO - Finestra principal creada
+2025-11-04 20:08:06,460 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 20:08:12,310 - controllers.descansos_controller - INFO - Cerca '63': 30 resultats
+2025-11-04 20:08:12,477 - controllers.descansos_controller - INFO - Cerca '639': 12 resultats
+2025-11-04 20:08:12,670 - controllers.descansos_controller - INFO - Cerca '6395': 5 resultats
+2025-11-04 20:08:13,147 - controllers.descansos_controller - INFO - Cerca '63954': 0 resultats
+2025-11-04 20:08:15,179 - controllers.descansos_controller - INFO - Cerca '63954': 0 resultats
+2025-11-04 20:08:19,003 - controllers.descansos_controller - INFO - Cerca '6395': 5 resultats
+2025-11-04 20:08:20,924 - controllers.descansos_controller - INFO - Cerca '63957': 1 resultats
+2025-11-04 20:08:21,371 - controllers.descansos_controller - INFO - Cerca '63957': 1 resultats
+2025-11-04 20:08:22,590 - controllers.descansos_controller - INFO - Cerca '63957': 1 resultats
+2025-11-04 20:08:23,881 - controllers.descansos_controller - INFO - Descansos de 63957 (2025): 19
+2025-11-04 20:08:41,317 - controllers.disponibilitat_controller - INFO - Analitzant disponibilitat: 2025-11-10 - 2025-11-16
+2025-11-04 20:08:41,325 - controllers.disponibilitat_controller - INFO - Carregats 88 treballadors amb descansos
+2025-11-04 20:08:41,326 - controllers.disponibilitat_controller - INFO - Carregats 10 serveis
+2025-11-04 20:08:41,334 - controllers.disponibilitat_controller - INFO - Anàlisi completada: 0.00% cobertura
+2025-11-04 20:13:31,357 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 20:13:31,357 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 20:13:41,786 - __main__ - INFO - ============================================================
+2025-11-04 20:13:41,786 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 20:13:41,786 - __main__ - INFO - ============================================================
+2025-11-04 20:13:41,949 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 20:13:41,949 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 20:13:41,949 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 20:13:41,950 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 20:13:41,950 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 20:13:42,481 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 20:13:42,785 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 20:13:43,058 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 20:13:43,058 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 20:13:43,058 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 20:13:43,068 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 20:13:43,068 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 20:13:43,100 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 20:13:44,978 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 20:13:44,997 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 20:13:44,997 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 20:13:44,997 - __main__ - INFO - Finestra principal creada
+2025-11-04 20:13:44,998 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 20:13:51,798 - controllers.descansos_controller - INFO - Cerca '11': 14 resultats
+2025-11-04 20:13:52,038 - controllers.descansos_controller - INFO - Cerca '110': 3 resultats
+2025-11-04 20:13:54,287 - controllers.descansos_controller - INFO - Descansos de 11081 (2025): 0
+2025-11-04 20:13:57,552 - controllers.descansos_controller - INFO - Descansos de 11110 (2025): 17
+2025-11-04 20:13:58,813 - controllers.descansos_controller - INFO - Descansos de 11005 (2025): 40
+2025-11-04 20:14:13,987 - controllers.disponibilitat_controller - INFO - Analitzant disponibilitat: 2025-11-03 - 2025-11-16
+2025-11-04 20:14:13,996 - controllers.disponibilitat_controller - INFO - Carregats 88 treballadors amb descansos
+2025-11-04 20:14:13,997 - controllers.disponibilitat_controller - INFO - Carregats 10 serveis
+2025-11-04 20:14:13,997 - controllers.disponibilitat_controller - INFO - Treballadors carregats: 88
+2025-11-04 20:14:13,997 - controllers.disponibilitat_controller - INFO - Serveis carregats: 10
+2025-11-04 20:14:14,008 - controllers.disponibilitat_controller - INFO - Anàlisi completada: 89.29% cobertura
+2025-11-04 20:14:14,009 - controllers.disponibilitat_controller - INFO - Coberts: 125, Descoberts: 15
+2025-11-04 20:14:40,734 - controllers.disponibilitat_controller - INFO - Taules netejades: 27 (assig_grup_A), 3 (cobertura)
+2025-11-04 20:14:40,734 - gui.views.disponibilitat_view - INFO - Taules netejades: 27, 3
+2025-11-04 20:14:40,738 - models.database - ERROR - Error de base de dades: table assig_grup_A has no column named rotacio
+2025-11-04 20:14:40,738 - controllers.disponibilitat_controller - ERROR - Error guardant assignacions: table assig_grup_A has no column named rotacio
+2025-11-04 20:16:03,509 - controllers.disponibilitat_controller - INFO - Taules netejades: 0 (assig_grup_A), 0 (cobertura)
+2025-11-04 20:16:03,509 - gui.views.disponibilitat_view - INFO - Taules netejades: 0, 0
+2025-11-04 20:16:03,519 - controllers.disponibilitat_controller - INFO - Assignacions guardades: 125 coberts, 15 descoberts
+2025-11-04 20:17:17,384 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 20:17:17,385 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 20:17:17,394 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 20:17:55,739 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 20:17:55,739 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 20:17:55,741 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 20:18:02,880 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 20:18:02,881 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 20:18:27,103 - __main__ - INFO - ============================================================
+2025-11-04 20:18:27,104 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 20:18:27,104 - __main__ - INFO - ============================================================
+2025-11-04 20:18:27,255 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 20:18:27,255 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 20:18:27,255 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 20:18:27,255 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 20:18:27,255 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 20:18:27,832 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 20:18:28,157 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 20:18:28,421 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 20:18:28,421 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 20:18:28,421 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 20:18:28,431 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 20:18:28,431 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 20:18:28,462 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 20:18:30,149 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 20:18:30,170 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 20:18:30,171 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 20:18:30,171 - __main__ - INFO - Finestra principal creada
+2025-11-04 20:18:30,171 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 20:18:39,064 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 20:18:39,064 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 20:18:39,067 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:48:30,914 - __main__ - INFO - ============================================================
+2025-11-04 21:48:30,915 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 21:48:30,915 - __main__ - INFO - ============================================================
+2025-11-04 21:48:31,103 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 21:48:31,103 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 21:48:31,104 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 21:48:31,104 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 21:48:31,104 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 21:48:31,964 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 21:48:32,254 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 21:48:32,512 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 21:48:32,512 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 21:48:32,513 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 21:48:32,523 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 21:48:32,523 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 21:48:32,554 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 21:48:34,512 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 21:48:34,535 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 21:48:34,536 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 21:48:34,536 - __main__ - INFO - Finestra principal creada
+2025-11-04 21:48:34,536 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 21:48:47,060 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:48:47,060 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:48:47,065 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:49:48,882 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 21:49:48,882 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 21:49:52,195 - __main__ - INFO - ============================================================
+2025-11-04 21:49:52,195 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 21:49:52,195 - __main__ - INFO - ============================================================
+2025-11-04 21:49:52,347 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 21:49:52,348 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 21:49:52,348 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 21:49:52,348 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 21:49:52,348 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 21:49:52,864 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 21:49:53,181 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 21:49:53,444 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 21:49:53,444 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 21:49:53,445 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 21:49:53,455 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 21:49:53,456 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 21:49:53,487 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 21:49:55,855 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 21:49:55,873 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 21:49:55,873 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 21:49:55,874 - __main__ - INFO - Finestra principal creada
+2025-11-04 21:49:55,874 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 21:50:06,249 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:50:06,249 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:50:06,262 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:50:53,568 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 21:50:53,569 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 21:54:18,659 - __main__ - INFO - ============================================================
+2025-11-04 21:54:18,660 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 21:54:18,660 - __main__ - INFO - ============================================================
+2025-11-04 21:54:18,809 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 21:54:18,809 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 21:54:18,809 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 21:54:18,809 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 21:54:18,809 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 21:54:19,314 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 21:54:19,605 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 21:54:19,849 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 21:54:19,850 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 21:54:19,850 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 21:54:19,858 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 21:54:19,858 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 21:54:19,889 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 21:54:21,544 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 21:54:21,565 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 21:54:21,566 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 21:54:21,566 - __main__ - INFO - Finestra principal creada
+2025-11-04 21:54:21,566 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 21:54:29,365 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:54:29,365 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:54:29,404 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:54:46,687 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:54:46,687 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:54:46,690 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:55:15,839 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 21:55:15,839 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 21:56:38,363 - __main__ - INFO - ============================================================
+2025-11-04 21:56:38,363 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 21:56:38,363 - __main__ - INFO - ============================================================
+2025-11-04 21:56:38,526 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 21:56:38,527 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 21:56:38,527 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 21:56:38,527 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 21:56:38,527 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 21:56:39,061 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 21:56:39,364 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 21:56:39,633 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 21:56:39,633 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 21:56:39,633 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 21:56:39,645 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 21:56:39,646 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 21:56:39,677 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 21:56:41,981 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 21:56:41,999 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 21:56:41,999 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 21:56:41,999 - __main__ - INFO - Finestra principal creada
+2025-11-04 21:56:41,999 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 21:57:04,151 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:57:04,151 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:57:04,168 - controllers.genetic_controller - ERROR - Error important mòduls core: No module named 'data_structures'
+2025-11-04 21:57:15,560 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 21:57:15,561 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 21:58:31,110 - __main__ - INFO - ============================================================
+2025-11-04 21:58:31,111 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 21:58:31,111 - __main__ - INFO - ============================================================
+2025-11-04 21:58:31,269 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 21:58:31,270 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 21:58:31,270 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 21:58:31,270 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 21:58:31,270 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 21:58:31,823 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 21:58:32,144 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 21:58:32,407 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 21:58:32,408 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 21:58:32,408 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 21:58:32,416 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 21:58:32,416 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 21:58:32,450 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 21:58:34,483 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 21:58:34,506 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 21:58:34,506 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 21:58:34,506 - __main__ - INFO - Finestra principal creada
+2025-11-04 21:58:34,506 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 21:58:44,676 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 21:58:44,676 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-12-08 - 2025-12-15
+2025-11-04 21:58:44,759 - controllers.genetic_controller - ERROR - Error executant algorisme: 'DataLoader' object has no attribute 'carregar_treballadors'
+Traceback (most recent call last):
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 119, in _executar_thread
+    treballadors = loader.carregar_treballadors()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'carregar_treballadors'. Did you mean: 'carrega_treballadors'?
+2025-11-04 21:59:08,349 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 21:59:08,350 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:00:51,409 - __main__ - INFO - ============================================================
+2025-11-04 22:00:51,409 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:00:51,410 - __main__ - INFO - ============================================================
+2025-11-04 22:00:51,588 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:00:51,588 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:00:51,588 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:00:51,589 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:00:51,589 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:00:52,354 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:00:52,796 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:00:53,063 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:00:53,063 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:00:53,063 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:00:53,074 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:00:53,074 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:00:53,104 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:00:55,017 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:00:55,039 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:00:55,040 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:00:55,040 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:00:55,040 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:01:53,095 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:01:53,095 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:01:53,127 - controllers.genetic_controller - ERROR - Error executant algorisme: 'DataLoader' object has no attribute 'carrega_necessitats'
+Traceback (most recent call last):
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 121, in _executar_thread
+    necessitats = loader.carrega_necessitats(data_inici, data_fi)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'carrega_necessitats'
+2025-11-04 22:02:02,239 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:02:02,240 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:02:33,847 - __main__ - INFO - ============================================================
+2025-11-04 22:02:33,847 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:02:33,847 - __main__ - INFO - ============================================================
+2025-11-04 22:02:34,025 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:02:34,026 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:02:34,026 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:02:34,026 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:02:34,026 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:02:34,588 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:02:34,896 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:02:35,160 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:02:35,161 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:02:35,161 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:02:35,170 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:02:35,170 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:02:35,202 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:02:37,143 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:02:37,163 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:02:37,163 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:02:37,163 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:02:37,163 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:03:16,783 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:03:16,783 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:03:16,816 - controllers.genetic_controller - ERROR - Error executant algorisme: 'DataLoader' object has no attribute 'carrega_descansos'
+Traceback (most recent call last):
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 123, in _executar_thread
+    exclude_map = loader.carrega_descansos(data_inici, data_fi)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'carrega_descansos'. Did you mean: 'carrega_descansos_dies'?
+2025-11-04 22:03:24,415 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:03:24,415 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:04:02,448 - __main__ - INFO - ============================================================
+2025-11-04 22:04:02,449 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:04:02,449 - __main__ - INFO - ============================================================
+2025-11-04 22:04:02,636 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:04:02,636 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:04:02,636 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:04:02,637 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:04:02,637 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:04:03,380 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:04:03,688 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:04:03,967 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:04:03,967 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:04:03,967 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:04:03,978 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:04:03,978 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:04:04,012 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:04:05,896 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:04:05,918 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:04:05,918 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:04:05,918 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:04:05,918 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:04:20,282 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:04:20,282 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:04:20,329 - controllers.genetic_controller - ERROR - Error executant algorisme: AlgorismeGenetic.executa() got an unexpected keyword argument 'progress_callback'
+Traceback (most recent call last):
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 184, in _executar_thread
+    millor_individu = ag.executa(
+        generacions=generacions,
+    ...<2 lines>...
+        )
+    )
+TypeError: AlgorismeGenetic.executa() got an unexpected keyword argument 'progress_callback'
+2025-11-04 22:04:26,535 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:04:26,535 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:05:57,881 - __main__ - INFO - ============================================================
+2025-11-04 22:05:57,882 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:05:57,882 - __main__ - INFO - ============================================================
+2025-11-04 22:05:58,061 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:05:58,062 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:05:58,062 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:05:58,062 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:05:58,062 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:05:58,588 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:05:58,893 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:05:59,158 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:05:59,158 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:05:59,158 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:05:59,167 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:05:59,167 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:05:59,199 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:06:00,992 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:06:01,014 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:06:01,014 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:06:01,015 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:06:01,015 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:06:14,684 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:06:14,684 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:06:16,658 - controllers.genetic_controller - ERROR - Error executant algorisme: 'tuple' object has no attribute 'assignacions'
+Traceback (most recent call last):
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 190, in _executar_thread
+    success = self._guardar_resultats(
+        millor_individu,
+    ...<2 lines>...
+        on_duplicate
+    )
+  File "C:\Users\josep\Documents\GitHub\tkinter\controllers\genetic_controller.py", line 247, in _guardar_resultats
+    if not individu or not individu.assignacions:
+                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'assignacions'
+2025-11-04 22:06:25,322 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:06:25,323 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:07:03,034 - __main__ - INFO - ============================================================
+2025-11-04 22:07:03,034 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:07:03,034 - __main__ - INFO - ============================================================
+2025-11-04 22:07:03,217 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:07:03,217 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:07:03,217 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:07:03,217 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:07:03,217 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:07:03,850 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:07:04,177 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:07:04,460 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:07:04,460 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:07:04,461 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:07:04,471 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:07:04,471 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:07:04,504 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:07:06,261 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:07:06,282 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:07:06,282 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:07:06,282 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:07:06,282 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:07:26,612 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:07:26,613 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:07:28,676 - models.database - INFO - Taula assig_grup_T netejada: 6 registres
+2025-11-04 22:07:28,676 - controllers.genetic_controller - INFO - Taula d'assignacions netejada
+2025-11-04 22:07:28,677 - controllers.genetic_controller - ERROR - Error guardant resultats: 'tuple' object has no attribute 'assignacions'
+2025-11-04 22:07:28,679 - controllers.genetic_controller - INFO - Algorisme completat. Fitness: 0.00
+2025-11-04 22:07:28,685 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:07:28,686 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:08:26,931 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:08:26,932 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:08:54,509 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:08:54,510 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:09:47,903 - __main__ - INFO - ============================================================
+2025-11-04 22:09:47,903 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:09:47,903 - __main__ - INFO - ============================================================
+2025-11-04 22:09:48,082 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:09:48,082 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:09:48,083 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:09:48,083 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:09:48,083 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:09:48,601 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:09:48,907 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:09:49,174 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:09:49,175 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:09:49,175 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:09:49,183 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:09:49,183 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:09:49,215 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:09:51,109 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:09:51,131 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:09:51,131 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:09:51,132 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:09:51,132 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:10:07,083 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:10:07,083 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:10:09,049 - models.database - INFO - Taula assig_grup_T netejada: 0 registres
+2025-11-04 22:10:09,049 - controllers.genetic_controller - INFO - Taula d'assignacions netejada
+2025-11-04 22:10:09,049 - controllers.genetic_controller - ERROR - Error guardant resultats: 'Assignacio' object has no attribute 'servei'
+2025-11-04 22:10:09,052 - controllers.genetic_controller - INFO - Algorisme completat. Fitness: 0.00
+2025-11-04 22:10:09,057 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:10:09,057 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:10:27,049 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:10:27,049 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:11:28,344 - __main__ - INFO - ============================================================
+2025-11-04 22:11:28,344 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:11:28,344 - __main__ - INFO - ============================================================
+2025-11-04 22:11:28,518 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:11:28,518 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:11:28,519 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:11:28,519 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:11:28,519 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:11:29,086 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:11:29,399 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:11:29,663 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:11:29,663 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:11:29,663 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:11:29,673 - models.database - ERROR - Error de base de dades: no such column: servei
+2025-11-04 22:11:29,673 - controllers.genetic_controller - ERROR - Error obtenint estadístiques: no such column: servei
+2025-11-04 22:11:29,705 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:11:32,008 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:11:32,027 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:11:32,027 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:11:32,027 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:11:32,027 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:12:14,649 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:12:14,649 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:12:16,623 - models.database - INFO - Taula assig_grup_T netejada: 0 registres
+2025-11-04 22:12:16,623 - controllers.genetic_controller - INFO - Taula d'assignacions netejada
+2025-11-04 22:12:16,626 - models.database - ERROR - Error de base de dades: table assig_grup_T has no column named servei
+2025-11-04 22:12:16,626 - controllers.genetic_controller - ERROR - Error guardant resultats: table assig_grup_T has no column named servei
+2025-11-04 22:12:16,628 - controllers.genetic_controller - INFO - Algorisme completat. Fitness: 0.00
+2025-11-04 22:12:16,631 - models.database - ERROR - Error de base de dades: no such column: a.servei
+2025-11-04 22:12:16,631 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.servei
+2025-11-04 22:12:22,741 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:12:22,741 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:14:09,283 - __main__ - INFO - ============================================================
+2025-11-04 22:14:09,284 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:14:09,284 - __main__ - INFO - ============================================================
+2025-11-04 22:14:09,463 - models.database - INFO - DatabaseManager inicialitzat amb BD: C:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:14:09,463 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:14:09,464 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:14:09,464 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:14:09,464 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:14:10,004 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:14:10,307 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:14:10,570 - models.database - ERROR - Error de base de dades: no such column: a.inici
+2025-11-04 22:14:10,570 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.inici
+2025-11-04 22:14:10,571 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:14:10,614 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:14:12,298 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:14:12,308 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:14:12,309 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:14:12,309 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:14:12,309 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:14:27,252 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:14:27,252 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:14:29,236 - models.database - INFO - Taula assig_grup_T netejada: 0 registres
+2025-11-04 22:14:29,237 - controllers.genetic_controller - INFO - Taula d'assignacions netejada
+2025-11-04 22:14:29,239 - models.database - ERROR - Error de base de dades: table assig_grup_T has no column named torn_id
+2025-11-04 22:14:29,239 - controllers.genetic_controller - ERROR - Error guardant resultats: table assig_grup_T has no column named torn_id
+2025-11-04 22:14:29,241 - controllers.genetic_controller - INFO - Algorisme completat. Fitness: 0.00
+2025-11-04 22:14:29,244 - models.database - ERROR - Error de base de dades: no such column: a.inici
+2025-11-04 22:14:29,244 - controllers.genetic_controller - ERROR - Error obtenint assignacions: no such column: a.inici
+2025-11-04 22:14:34,860 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:14:34,861 - __main__ - INFO - Aplicació tancada correctament
+2025-11-04 22:17:04,372 - __main__ - INFO - ============================================================
+2025-11-04 22:17:04,372 - __main__ - INFO - Iniciant aplicació Gestor de Treballadors
+2025-11-04 22:17:04,372 - __main__ - INFO - ============================================================
+2025-11-04 22:17:04,533 - models.database - INFO - DatabaseManager inicialitzat amb BD: c:\Users\josep\Documents\GitHub\tkinter\treballadors.db
+2025-11-04 22:17:04,533 - controllers.descansos_controller - INFO - DescansosController inicialitzat
+2025-11-04 22:17:04,533 - controllers.disponibilitat_controller - INFO - DisponibilitatController inicialitzat
+2025-11-04 22:17:04,533 - controllers.genetic_controller - INFO - GeneticController inicialitzat
+2025-11-04 22:17:04,534 - gui.main_window - INFO - Controllers inicialitzats correctament
+2025-11-04 22:17:05,101 - gui.views.descansos_view - INFO - DescansosView inicialitzada
+2025-11-04 22:17:05,397 - gui.views.disponibilitat_view - INFO - DisponibilitatView inicialitzada
+2025-11-04 22:17:05,663 - gui.views.genetic_view - INFO - GeneticView inicialitzada
+2025-11-04 22:17:05,703 - controllers.descansos_controller - INFO - Baixes pendents detectades: 1
+2025-11-04 22:17:07,920 - gui.views.estadistiques_view - INFO - EstadistiquesView inicialitzada
+2025-11-04 22:17:07,929 - gui.main_window - INFO - Connexió a BD verificada
+2025-11-04 22:17:07,929 - gui.main_window - INFO - MainWindow inicialitzada
+2025-11-04 22:17:07,930 - __main__ - INFO - Finestra principal creada
+2025-11-04 22:17:07,930 - __main__ - INFO - Iniciant bucle principal de l'aplicació
+2025-11-04 22:17:19,867 - controllers.genetic_controller - INFO - Iniciant càrrega de dades...
+2025-11-04 22:17:19,867 - controllers.genetic_controller - INFO - Thread d'algorisme genètic iniciat: 2025-11-08 - 2025-11-15
+2025-11-04 22:17:21,804 - models.database - INFO - Taula assig_grup_T netejada: 0 registres
+2025-11-04 22:17:21,804 - controllers.genetic_controller - INFO - Taula d'assignacions netejada
+2025-11-04 22:17:21,810 - controllers.genetic_controller - INFO - Guardades 15 assignacions
+2025-11-04 22:17:21,812 - models.database - ERROR - Error de base de dades: no such table: assignacions_finals
+2025-11-04 22:17:21,812 - controllers.genetic_controller - ERROR - Error guardant històric: no such table: assignacions_finals
+2025-11-04 22:17:21,814 - controllers.genetic_controller - INFO - Algorisme completat. Fitness: 0.00
+2025-11-04 22:17:56,947 - gui.main_window - INFO - Tancant aplicació
+2025-11-04 22:17:56,947 - __main__ - INFO - Aplicació tancada correctament
